@@ -3,7 +3,7 @@ import "./../styles/App.css";
 
 function App() {
   const[tPara,setTPara]=useState("")
-  const txt="Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+  const txt='Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy'
   const onClickHandler=()=>{
     setTPara(txt)
   }
